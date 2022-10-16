@@ -1,0 +1,152 @@
+header {
+    display: block;
+    height: 200px;
+    background-color: #08487D;
+}
+
+@font-face {
+    font-family: Espresso Roast Caps;
+    src: url(fonts/EspressoRoast-Caps.woff2);
+    font-family: Espresso Roast Script;
+    src: url(fonts/EspressoRoast-Script.woff2);
+}
+
+
+h1 {
+    font-family: Espresso Roast Caps;
+    font-size: 74pt;
+    color: #f7f7f7;
+    margin-top: -10px;
+}
+
+h2 {
+    font-family: Espresso Roast Script;
+    font-size: 78pt;
+    margin-top: -90px;
+    padding-bottom: 40px;
+    color: #f7f7f7;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 86pt; 
+    display: inline-block;
+    margin-left: 142px;
+    color: #f7f7f7;
+    margin-right: 240px;
+    margin-bottom: -20px;
+}
+
+.logo {
+    vertical-align: top;
+    margin: 0px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    color: #f7f7f7;
+   }
+
+nav ul {
+    list-style: none;
+    color: #f7f7f7;
+    vertical-align: top;
+    padding-top: 115px;
+    margin-top: -220px;
+    margin-right: 44px;
+    text-align: center;
+    height: 201px;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+}
+
+.heroImg {
+    height: 408px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    text-align: left;
+    background-color: #0072D0;
+    padding-left: 60px;
+    padding-top: 100px;
+    }
+
+.content {
+    padding-top: 100px;
+    margin-top: 109px;
+    margin-left: -60px;
+    margin-right: -60px;
+    vertical-align: top;
+    background-color: #025396;
+}
+
+
+p {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 14pt; 
+  line-height: 150%;
+  margin-top: 40px;
+  margin-left: 142px;
+  margin-right: 142px;
+  color: #f7f7f7;
+}
+
+
+
+#grad {
+    background-color: linear-gradient(to right, red , yellow);
+}
+
+#myName {
+    float: right;
+    vertical-align: top;
+    padding-left:-100px;
+    margin-top: -320px;
+}
+
+footer {
+    background-color: #08487D;
+    height: 200px;
+    vertical-align: bottom;
+    padding-top: 1100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #f7f7f7;
+    float: bottom;
+}
+
+
+button {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    color: #f7f7f7;
+    background-color: #0072D0; 
+    height: 60px;
+    width: 180px;
+    border-color: #f7f7f7;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    float: right;
+    margin-right: 140px;
+    }
+
+    .icons {
+        float: right;
+        margin-right: 20px;
+        padding-right: 5px;
+        padding-left: 940px;
+        padding-bottom: 0px;
+    }
+
+    .footerNav {
+        padding-left: -600px;
+    }
